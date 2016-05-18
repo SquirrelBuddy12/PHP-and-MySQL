@@ -8,6 +8,7 @@ Teams Table Spring 2016
 echo $_SERVER['SERVER_NAME'];
 ?>
 <p>Connect to database using PDO</p>
+<h1>Requirement #1</h2>
 <form name ="form1" method= "post" action ="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
 <input type="submit" name="submit1" value="Check Database Status">	
 </form>	
